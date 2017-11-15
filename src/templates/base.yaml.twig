@@ -1,0 +1,25 @@
+configuration:
+    name: "{{ projectName }}"
+    unit: inch # Can be inch, cm, mm, pixel. Only used for the component size for the moment.
+               # Pixel will be used everywhere else.
+    component:
+        number: 1 # Number of component you want to generate
+        size: [2.5, 3.5] # Poker cards 2.5 x 3.5 - 825px x 1125px
+        border: none
+        dpi: 300
+    link: none # Can be a CSV file in the main project directory
+
+fonts: ~
+
+variables: ~
+
+icons: ~
+
+actions:
+    -
+        action: doSometing
+        options: ~
+    -
+        action: doSometingElse
+        options: ~
+
